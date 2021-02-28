@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashlesha Dule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="sticky">
+        <a href="#home" class="logo">Ashlesha</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+           
+        </ul>
+    </header>
+    <section class="bg" id="home">
+        <div class="textbox">
+            <h2>Hello, I'm <br><span>Ashlesha Dule.</span></h2>
+            <h3>I'm a Front End Web Developer.</h3>
+            <a href="#about" class="btn">About me</a>
+        </div>
+    </section>
+    <section class="abt" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="cnt">
+            <div class="cntbox">
+                <h3>I'm a Front End Web Developer.</h3>
+                <p>I am primarily a front-end developer. The main areas of my expertise HTML(5), CSS(3) & JavaScript, ReactJs but I have intermediate knowledge of MySQL. <br><br>I like to write code that is re-usable, maintainable and easy to understand. I like to create Responsive websites. I like what I do.</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="heading white">
+            <h2>Projects</h2>
+           <!-- <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo facilis maxime numquam dignissimos, quae
+                exercitationem earum! Voluptatibus et explicabo nobis. </p> -->
+            <div class="cnt">
+                <div class="probox">
+                    <img src="">
+                    <h2>In process-ReactJs</h2>
+                     <p>Projects code using React Framework.</p> 
+                </div>
+
+                <div class="probox">
+                    <a href="https://vanilla-js-mini-projects.netlify.app/" target="_blank">
+                  
+                    <h2>Vanilla JavaScript</h2>
+                    <p>These mini projects are pure JavaScript code. Have a look!</p>
+                </a>
+                </div>
+
+              
+
+               <!-- <div class="probox">
+                    <img src="">
+                    <h2>Web</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nesciunt.</p>
+                </div>-->
+            </div>
+           
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact me</h2>
+        </div>
+        <div class="cnt">
+            <div class="info">
+                <h3>Contact Info</h3>
+                <div class="infoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email - ashleshad84@gmail.com</h3>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="infoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                        <div class="text">
+                            <h3><a href="https://www.linkedin.com/in/ashleshadule/" target="_blank">LinkedIn</a></h3>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="formBox">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+
+            </div>-->
+        </div>
+    </section>
+    <div class="footer">
+        <p>Ashlesha Dule © 2021 </p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
